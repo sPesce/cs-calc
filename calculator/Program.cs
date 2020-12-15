@@ -6,16 +6,16 @@ namespace calculator
     {
         static void Main(string[] args)
         {
-            int x = 0; int y = 0;
+            double x = 0; double y = 0;
 
             Console.WriteLine("Console Calculator in C#\r");
             Console.WriteLine("-------------------------\n");
 
             Console.WriteLine("Type a number, then press Enter");
-            x = Convert.ToInt32(Console.ReadLine());
+            x = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("Type another number, then press Enter");
-            y = Convert.ToInt32(Console.ReadLine());
+            y = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("Choose an option from the following list:");
             Console.WriteLine("\t+ - Add");
